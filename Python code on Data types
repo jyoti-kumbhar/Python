@@ -1,0 +1,76 @@
+#Data types
+print("String Data types")
+x="Hello World"
+print(x)
+print(type(x))
+print()
+
+x=20
+print(x)
+print(type(x))
+print()
+
+x=12.5
+print(x)
+print(type(x))
+print()
+
+x=1j
+print(x)
+print(type(x))
+print()
+
+print("Sequence Data types")
+x=["apple","banana","mango"]
+print(x)
+print(type(x))
+print()
+
+x=("apple","banana","mango")
+print(x)
+print(type(x))
+print()
+
+x=range(5)
+print(x)
+print(type(x))
+print()
+
+print("Binary Data types")
+x=b"Hello world"
+print(x)
+print(type(x))
+print()
+
+x=bytearray(8)
+print(x)
+print(type(x))
+print()
+
+x=memoryview(bytes(5))
+print(x)
+print(type(x))
+print()
+
+print("Mapping Data types")
+x={"name" : "John","age" : "20"}
+print(x)
+print(type(x))
+print()
+
+print("Boolean Data types")
+x=True
+print(x)
+print(type(x))
+print()
+
+print("Set Data types")
+x=("apple","banana","mango")
+print(x)
+print(type(x))
+print()
+
+x=frozenset({"apple","banana","mango"})
+print(x)
+print(type(x))
+print()
